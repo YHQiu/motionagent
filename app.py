@@ -213,4 +213,4 @@ with gr.Blocks() as demo:
         with gr.TabItem('音乐生成(Music Generation)'):
             music_gen()
 
-demo.queue(status_update_rate=1).launch(share=False, server_name="0.0.0.0", server_port=8886)
+demo.queue(status_update_rate=1).launch(auth=("qhy", "bsn1928"), share=False, server_name="0.0.0.0", server_port=8886)
